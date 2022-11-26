@@ -10,7 +10,7 @@ class LicoesNaoAprendidas extends React.Component {
       <ul>
       <h2 className="titulo-licoes" >Lições Não Aprendidas</h2>
       {licoesNaoAprendidas.map((licao) => (
-          <li>{licao}</li>
+          <li key={licao}>{licao}</li>
         ))}
       </ul>
     </>
