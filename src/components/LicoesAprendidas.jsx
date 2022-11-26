@@ -10,7 +10,7 @@ class LicoesAprendidas extends React.Component {
         <ol>
           <h2 className="titulo-licoes">Lições Aprendidas</h2>
         {licoesAprendidas.map((licao) => (
-            <li>{licao}</li>
+            <li key={licao}>{licao}</li>
           ))}
         </ol>
       </>
