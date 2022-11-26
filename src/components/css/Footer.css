@@ -1,0 +1,26 @@
+.redesSociais {
+  align-items: center;
+  background-color: rgb(229, 241, 213);
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.redesSociais > a > img { 
+  opacity: 0.4;
+  width: 30px;
+}
+
+.redesSociais > a > img:hover { 
+  opacity: 1;
+  transition: cubic-bezier(0.39, 0.575, 0.565, 1);
+  width: 32px;
+}
+
+.section-redesSociais {
+  text-align: center;
+}
+
+.contato {
+  width: 210px;
+}

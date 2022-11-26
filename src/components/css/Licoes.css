@@ -1,0 +1,20 @@
+.licoes {
+  background-color: rgb(229, 241, 213);
+  border: 2px solid rgb(106, 181, 55);
+  border-radius: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: auto;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.titulo-licoes {
+  color: rgb(40, 70, 40);
+  margin-right: 20px;
+}
+
+h2 { 
+  text-align: center;
+}
